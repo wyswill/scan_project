@@ -1,5 +1,6 @@
 use serde::{Deserialize, Serialize};
 use std::{collections::HashSet, fs};
+mod config;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct ProjectInfo {
@@ -56,7 +57,7 @@ fn scan_dir(_path: &str, tag: &str, info_list: &mut Vec<ProjectInfo>, set: &mut 
 }
 
 fn get_end_path(path: &str) -> String {
-    let arr = path.split('/');
+    let arr: std::str::Split<char> = path.split('/');
     if let Some(res) = arr.last() {
         return res.to_string();
     } else {
