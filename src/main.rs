@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-use std::{borrow::BorrowMut, collections::HashSet, fs};
+use std::{collections::HashSet, fs};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct ProjectInfo {
