@@ -14,7 +14,7 @@ pub struct Config {
 impl Config {
     pub fn init_form_json(path: &str) -> Config {
         if let Ok(file) = fs::File::open(path) {
-            let reader = BufReader::new(file);
+            let reader: BufReader<fs::File> = BufReader::new(file);
             let config: Config = serde_json::from_reader(reader).unwrap();
             println!("{:#?}", config);
             config

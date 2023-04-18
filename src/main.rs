@@ -5,7 +5,7 @@ mod project_info;
 fn main() {
     let _config_path: String = get_config_path();
     let _conf_ins: config::Config = config::Config::init_form_json(&_config_path);
-    let mut _project_manager = project_info::FileManager::new(_conf_ins);
+    let mut _project_manager: project_info::FileManager = project_info::FileManager::new(_conf_ins);
     _project_manager.scan_dir();
     _project_manager.fmt();
     _project_manager.write_config();
