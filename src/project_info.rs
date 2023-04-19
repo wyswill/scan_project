@@ -6,7 +6,7 @@ use crate::config::Config;
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ProjectInfo {
     pub name: String,
-    pub rootPath: String,
+    pub root_path: String,
     pub paths: Vec<String>,
     pub tags: Vec<String>,
     pub enabled: bool,
@@ -26,27 +26,34 @@ impl FileManager {
 
     fn get_tag(&self, path: &str) -> Vec<String> {
         for tag in &self.config_ins.tags {
-            if tag.eq(path) {
-                return vec![path.to_string()];
+            if path.contains(tag) {
+                return vec![tag.to_string()];
             }
         }
         return Vec::new();
     }
 
     pub fn scan_dir(&mut self) {
-        for item in self.config_ins.scan_dir.iter() {
+        while let Some(item) = self.config_ins.scan_dir.pop() {
             if let Ok(dir) = fs::read_dir(item) {
                 for entry in dir {
                     let _dir: fs::DirEntry = entry.unwrap();
-                    let rootPath: String = _dir.path().to_str().unwrap().to_string();
-                    if rootPath.contains(".") {
+                    let root_path: String = _dir.path().to_str().unwrap().to_string();
+                    if root_path.contains(".") {
                         continue;
                     }
-                    let name: String = self.get_end_path(&rootPath);
-                    let tags: Vec<String> = self.get_tag(&name);
+                    let name: String = self.get_end_path(&root_path);
+
+                    if self.config_ins.need_deep.contains(&name) {
+                        println!("root_path {}", root_path);
+                        self.config_ins.scan_dir.push(root_path.clone());
+                        continue;
+                    }
+
+                    let tags: Vec<String> = self.get_tag(&root_path);
                     let info: ProjectInfo = ProjectInfo {
                         name,
-                        rootPath: rootPath,
+                        root_path,
                         paths: Vec::new(),
                         tags,
                         enabled: true,
@@ -79,8 +86,10 @@ impl FileManager {
     }
 
     pub fn write_config(&mut self) {
-        let json_string: String = serde_json::to_string(&self.info_list).unwrap();
-        fs::write(&self.config_ins.json_dir, json_string).expect("写入失败");
-        println!("写入成功");
+        // let mut json_string: String = serde_json::to_string(&self.info_list).unwrap();
+        // json_string = json_string.replace("root_path", "rootPath");
+        // println!("{}", json_string);
+        // fs::write(&self.config_ins.json_dir, json_string).expect("写入失败");
+        // println!("写入成功");
     }
 }

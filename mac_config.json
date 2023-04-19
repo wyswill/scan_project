@@ -1,0 +1,20 @@
+{
+  "json_dir": "/Users/wangyansong/Library/Application Support/Code/User/globalStorage/alefragnani.project-manager/projects.json",
+  "scan_dir": [
+    "/Users/wangyansong/project/vw",
+    "/Users/wangyansong/project/cooper"
+  ],
+  "need_deep": [
+    "rs_tools",
+    "other",
+    "rust"
+  ],
+  "ignore_dir": [],
+  "tags": [
+    "vw",
+    "cooper",
+    "rs_tools",
+    "other",
+    "rust"
+  ]
+}
