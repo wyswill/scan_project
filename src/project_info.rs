@@ -43,6 +43,9 @@ impl FileManager {
                         continue;
                     }
                     let name: String = self.get_end_path(&root_path);
+                    if self.config_ins.ignore_dir.contains(&name) {
+                        continue;
+                    }
 
                     if self.config_ins.need_deep.contains(&name) {
                         println!("root_path {}", root_path);
@@ -86,10 +89,9 @@ impl FileManager {
     }
 
     pub fn write_config(&mut self) {
-        // let mut json_string: String = serde_json::to_string(&self.info_list).unwrap();
-        // json_string = json_string.replace("root_path", "rootPath");
-        // println!("{}", json_string);
-        // fs::write(&self.config_ins.json_dir, json_string).expect("写入失败");
-        // println!("写入成功");
+        let mut json_string: String = serde_json::to_string(&self.info_list).unwrap();
+        json_string = json_string.replace("root_path", "rootPath");
+        fs::write(&self.config_ins.json_dir, json_string).expect("写入失败");
+        println!("写入成功");
     }
 }

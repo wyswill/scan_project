@@ -4,6 +4,8 @@
     "D:\\project"
   ],
   "need_deep": [],
-  "ignore_dir": [],
+  "ignore_dir": [
+    "车机模拟"
+  ],
   "tags": []
 }
