@@ -48,7 +48,6 @@ impl FileManager {
                     }
 
                     if self.config_ins.need_deep.contains(&name) {
-                        println!("root_path {}", root_path);
                         self.config_ins.scan_dir.push(root_path.clone());
                         continue;
                     }
