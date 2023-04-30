@@ -1,11 +1,15 @@
 {
   "json_dir": "/home/cooper/.config/Code/User/globalStorage/alefragnani.project-manager/projects.json",
   "scan_dir": [
-    "/home/cooper/project"
+    "/home/cooper/project/cooper",
+    "/home/cooper/project/vw"
   ],
   "need_deep": [
   ],
-  "ignore_dir": [],
+  "ignore_dir": [
+  ],
   "tags": [
+    "vw",
+    "cooper"
   ]
 }
