@@ -1,0 +1,558 @@
+Config {
+    json_dir: "/Users/wangyansong/Library/Application Support/Code/User/globalStorage/alefragnani.project-manager/projects.json",
+    scan_dir: [
+        "/Users/wangyansong/project/vw",
+        "/Users/wangyansong/project/cooper",
+        "/Users/wangyansong/project/github",
+    ],
+    need_deep: [
+        "rs_tools",
+        "other",
+        "rust",
+    ],
+    ignore_dir: [],
+    tags: [
+        "vw",
+        "cooper",
+        "rs_tools",
+        "other",
+        "rust",
+        "github",
+    ],
+}
+root_path /Users/wangyansong/project/cooper/rs_tools
+root_path /Users/wangyansong/project/cooper/rust
+[
+    ProjectInfo {
+        name: "core",
+        root_path: "/Users/wangyansong/project/github/core",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "clash-verge",
+        root_path: "/Users/wangyansong/project/github/clash-verge",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "diff-svc",
+        root_path: "/Users/wangyansong/project/github/diff-svc",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "combodroid",
+        root_path: "/Users/wangyansong/project/github/combodroid",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "cyberapi",
+        root_path: "/Users/wangyansong/project/github/cyberapi",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "inside-rust-std-library",
+        root_path: "/Users/wangyansong/project/github/inside-rust-std-library",
+        paths: [],
+        tags: [
+            "rust",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "busybox",
+        root_path: "/Users/wangyansong/project/github/busybox",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "gameAiAdminServer",
+        root_path: "/Users/wangyansong/project/github/gameAiAdminServer",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "moss-vits-model",
+        root_path: "/Users/wangyansong/project/github/moss-vits-model",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "moss-tts-service",
+        root_path: "/Users/wangyansong/project/github/moss-tts-service",
+        paths: [],
+        tags: [
+            "github",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "grpc_test",
+        root_path: "/Users/wangyansong/project/cooper/grpc_test",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ts_type",
+        root_path: "/Users/wangyansong/project/cooper/ts_type",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "leetcode",
+        root_path: "/Users/wangyansong/project/cooper/leetcode",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "npm_packages",
+        root_path: "/Users/wangyansong/project/cooper/npm_packages",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "mouse",
+        root_path: "/Users/wangyansong/project/cooper/mouse",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "esp32",
+        root_path: "/Users/wangyansong/project/cooper/esp32",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "lib",
+        root_path: "/Users/wangyansong/project/cooper/lib",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "os",
+        root_path: "/Users/wangyansong/project/cooper/os",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "dd_gen_tool",
+        root_path: "/Users/wangyansong/project/cooper/dd_gen_tool",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "os_c",
+        root_path: "/Users/wangyansong/project/cooper/os_c",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "leng2",
+        root_path: "/Users/wangyansong/project/cooper/rust/leng2",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "restaurant",
+        root_path: "/Users/wangyansong/project/cooper/rust/restaurant",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "mandel_boot",
+        root_path: "/Users/wangyansong/project/cooper/rust/mandel_boot",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "data_struc",
+        root_path: "/Users/wangyansong/project/cooper/rust/data_struc",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "guessing_game",
+        root_path: "/Users/wangyansong/project/cooper/rust/guessing_game",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "variables",
+        root_path: "/Users/wangyansong/project/cooper/rust/variables",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "structTest",
+        root_path: "/Users/wangyansong/project/cooper/rust/structTest",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "system_rs",
+        root_path: "/Users/wangyansong/project/cooper/rust/system_rs",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "scan_project",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/scan_project",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "news_rs",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/news_rs",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "project_storm",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/project_storm",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "project_cli",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/project_cli",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "git_his",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/git_his",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "news",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/news",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "keybordInput",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/keybordInput",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "one_portal_assmbol_tool",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/one_portal_assmbol_tool",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "client",
+        root_path: "/Users/wangyansong/project/cooper/rs_tools/client",
+        paths: [],
+        tags: [
+            "cooper",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-errorcode-repo",
+        root_path: "/Users/wangyansong/project/vw/ezia-errorcode-repo",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "eziahz-frameworks-core-mono",
+        root_path: "/Users/wangyansong/project/vw/eziahz-frameworks-core-mono",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-cms-framework_element",
+        root_path: "/Users/wangyansong/project/vw/ezia-cms-framework_element",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-commonutil-portal-errorcode",
+        root_path: "/Users/wangyansong/project/vw/ezia-commonutil-portal-errorcode",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-oneportal-framework-pluginaccess",
+        root_path: "/Users/wangyansong/project/vw/ezia-oneportal-framework-pluginaccess",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-commonutil-onesimcn-applications",
+        root_path: "/Users/wangyansong/project/vw/ezia-commonutil-onesimcn-applications",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-commonutil-portal-techblog",
+        root_path: "/Users/wangyansong/project/vw/ezia-commonutil-portal-techblog",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-oneportal-portal-usercenter",
+        root_path: "/Users/wangyansong/project/vw/vwasp-oneportal-portal-usercenter",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "eziahz-commonutility-framework_plugin_upload",
+        root_path: "/Users/wangyansong/project/vw/eziahz-commonutility-framework_plugin_upload",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "test-portal-service",
+        root_path: "/Users/wangyansong/project/vw/test-portal-service",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-cms-framework-atomlogin",
+        root_path: "/Users/wangyansong/project/vw/ezia-cms-framework-atomlogin",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-commonutil-portal-mapi",
+        root_path: "/Users/wangyansong/project/vw/ezia-commonutil-portal-mapi",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-cms-portal_domainrepo",
+        root_path: "/Users/wangyansong/project/vw/ezia-cms-portal_domainrepo",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-oneportal-service-usercenter",
+        root_path: "/Users/wangyansong/project/vw/vwasp-oneportal-service-usercenter",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "eziahz-commonutility-framework_util_rpc",
+        root_path: "/Users/wangyansong/project/vw/eziahz-commonutility-framework_util_rpc",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-oneportal-portal-container",
+        root_path: "/Users/wangyansong/project/vw/vwasp-oneportal-portal-container",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-charging-portal-mgmt",
+        root_path: "/Users/wangyansong/project/vw/vwasp-charging-portal-mgmt",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-oemcenter-portal-mgmt",
+        root_path: "/Users/wangyansong/project/vw/vwasp-oemcenter-portal-mgmt",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-testportal-portal-mgmt",
+        root_path: "/Users/wangyansong/project/vw/vwasp-testportal-portal-mgmt",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "ezia-cms-framework-plugintracer",
+        root_path: "/Users/wangyansong/project/vw/ezia-cms-framework-plugintracer",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "irm-animatedavatar-webview-avatar",
+        root_path: "/Users/wangyansong/project/vw/irm-animatedavatar-webview-avatar",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+    ProjectInfo {
+        name: "vwasp-avatar-portal-mgmt",
+        root_path: "/Users/wangyansong/project/vw/vwasp-avatar-portal-mgmt",
+        paths: [],
+        tags: [
+            "vw",
+        ],
+        enabled: true,
+    },
+]
+写入成功
