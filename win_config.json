@@ -1,11 +1,15 @@
 {
-  "json_dir": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\globalStorage\\alefragnani.project-manager\\projects.json",
+  "json_dir": "C:\\Users\\www11\\AppData\\Roaming\\Code\\User\\globalStorage\\alefragnani.project-manager\\projects.json",
   "scan_dir": [
-    "D:\\project"
+    "C:\\project\\vw",
+    "C:\\project\\cooper"
   ],
   "need_deep": [],
   "ignore_dir": [
     "车机模拟"
   ],
-  "tags": []
+  "tags": [
+    "vw",
+    "cooper"
+  ]
 }
