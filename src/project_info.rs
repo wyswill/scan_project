@@ -68,12 +68,12 @@ impl FileManager {
 
     fn get_end_path(&self, path: &str) -> String {
         let os_str: ffi::OsString = ffi::OsString::from_str(path).unwrap();
-        let _p: &str = os_str.to_str().unwrap();
+        let p: &str = os_str.to_str().unwrap();
         let arr: std::str::Split<char>;
         match OS {
-            "linux" => arr = _p.split('/'),
-            "macos" => arr = _p.split('/'),
-            "windows" => arr = _p.split('\\'),
+            "linux" => arr = p.split('/'),
+            "macos" => arr = p.split('/'),
+            "windows" => arr = p.split('\\'),
             _ => arr = "".split(' '),
         }
         if let Some(res) = arr.last() {
