@@ -5,12 +5,12 @@ mod config;
 mod project_info;
 
 fn main() {
-    let _config_path: String = get_config_path();
-    let _conf_ins: Config = Config::init_form_json(&_config_path);
-    let mut _project_manager: FileManager = FileManager::new(_conf_ins);
-    _project_manager.scan_dir();
-    _project_manager.fmt();
-    _project_manager.write_config();
+    let config_path: String = get_config_path();
+    let conf_ins: Config = Config::init_form_json(&config_path);
+    let mut project_manager: FileManager = FileManager::new(conf_ins);
+    project_manager.scan_dir();
+    project_manager.fmt();
+    project_manager.write_config();
 }
 
 fn get_config_path() -> String {
