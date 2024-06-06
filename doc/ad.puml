@@ -1,0 +1,24 @@
+@startuml
+start
+if (检测是否有config地址缓存)  then (有缓存)
+
+  :从地址缓存读取config;
+
+else (没有缓存)
+
+  if (检测命令参数是否有config) then (yes)
+    : 写入缓存;
+  else(no)
+    :报错;
+    end
+
+  endif
+
+endif
+
+:解析config;
+:更新package manage json;
+
+end
+
+@enduml
